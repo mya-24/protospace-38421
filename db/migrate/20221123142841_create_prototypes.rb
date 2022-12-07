@@ -3,5 +3,6 @@ class CreatePrototypes < ActiveRecord::Migration[6.0]
     create_table :prototypes do |t|
       
       t.timestamps
+    end
   end
 end
