@@ -1,5 +1,5 @@
 class PrototypesController < ApplicationController
-  #before_action :move_to_toppage, only: [:new, :create, :edit, :update, :destroy]
+  before_action :move_to_toppage, only: [:new, :create, :edit, :update, :destroy]
 
   def index
     @prototypes = Prototype.all
